@@ -75,3 +75,25 @@ Received: [0, 0, 0, 5, 1, 8, 6, 2, 9] [ch0] String : b'\x00\x00\x00\x05\x01\x08\
         
   }
   </pre>
+##  7. 락커
+
+  - usb 연결후  테스트 
+  - 열기 명령어 
+  <pre>
+  $/home/pi/Workspace/script/hione.py open
+  </pre>
+  - 닫기 명령어
+  <pre>
+  $/home/pi/Workspace/script/hione.py close
+  </pre>
+  <pre>
+  도어락)
+19200
+
+/설명/
+1:VCC      2:Dead bolt
+3:NC       4:Sublatch
+5:NC       6:Tx
+7:GND    8:RX
+<도어락기준> - 핀이 우측에 있음
+  </pre>
