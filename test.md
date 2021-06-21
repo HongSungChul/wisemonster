@@ -48,14 +48,14 @@ Received: [0, 0, 0, 5, 1, 8, 6, 2, 9] [ch0] String : b'\x00\x00\x00\x05\x01\x08\
   
 ##  4. 카메라
   - 외측테스트(화면에 보임)
-    <pre>
+  <pre>
   $/home/pi/Workspace/script/camerapreview.py 5   
-    </pre>
+  </pre>
   
   - 내측테스트(화면의 보임)
-    <pre>
+  <pre>
   $/home/pi/Workspace/script/camerapreview.py 1
-    </pre>
+  </pre>
   
 ##  5. USB 모메리 
   - 메모리 스틱을 usb  에 끼운다.
