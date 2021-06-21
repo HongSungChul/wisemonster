@@ -77,6 +77,7 @@ Received: [0, 0, 0, 5, 1, 8, 6, 2, 9] [ch0] String : b'\x00\x00\x00\x05\x01\x08\
   </pre>
 ##  7. 락커
 
+  - 하이원 문서 https://www.evernote.com/shard/s567/client/snv?noteGuid=95020550-315c-ac5e-2dea-8f2fad826a36&noteKey=38c7e6ca537e7e79487e7b7185bfa3d9&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs567%2Fsh%2F95020550-315c-ac5e-2dea-8f2fad826a36%2F38c7e6ca537e7e79487e7b7185bfa3d9&title=%25ED%2595%2598%25EC%259D%25B4%25EC%259B%2590%2B%25EC%259D%25BC%25EB%25B0%2598%25EB%258F%2584%25EC%2596%25B4%25EB%259D%25BD%2B%25ED%2594%2584%25EB%25A1%259C%25ED%2586%25A0%25EC%25BD%259C%2B%2528%25EC%259C%2584%25ED%2582%25A4%25EB%25B0%2595%25EC%258A%25A4%2529
   - usb 연결후  테스트 
   - 열기 명령어 
   <pre>
