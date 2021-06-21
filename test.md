@@ -46,7 +46,7 @@ Received: [0, 0, 0, 5, 1, 8, 6, 2, 9] [ch0] String : b'\x00\x00\x00\x05\x01\x08\
     <pre>
     $gpio read 8
       </pre>
-  - <font color='red'>테스트결과=> 실패 </font>
+  - <p style='color:red'>테스트결과=> 실패 </p>
 ##  4. 카메라
   - 외측테스트(화면에 보임)
   <pre>
