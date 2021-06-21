@@ -13,7 +13,7 @@
 ##  2. 마이크
 
   - 명령 실행 후 jiipkey mp3 파일 실행 다음 명령어 콘솔 관찰
-  '''
+  <pre>
   
   $/home/pi/Workspace/script/door_chirp_test.py 
   
@@ -36,7 +36,7 @@ Receiving data [ch0]
 ...State changed from Receiving to Running
 Received: [0, 0, 0, 5, 1, 8, 6, 2, 9] [ch0] String : b'\x00\x00\x00\x05\x01\x08\x06\x02\t'
 
-  '''
+  </pre>
 위와 같이 보이면 리슨 성공 
 
 ##  3. gpio
