@@ -13,7 +13,10 @@
 ##  2. 마이크
 
   - 명령 실행 후 jiipkey mp3 파일 실행 다음 명령어 콘솔 관찰
+  '''
+  
   $/home/pi/Workspace/script/door_chirp_test.py 
+  
   Initializing device.
    0 bcm2835 HDMI 1: - (hw:0,0), ALSA (0 in, 8 out)
    1 bcm2835 Headphones: - (hw:1,0), ALSA (0 in, 8 out)
@@ -33,6 +36,7 @@ Receiving data [ch0]
 ...State changed from Receiving to Running
 Received: [0, 0, 0, 5, 1, 8, 6, 2, 9] [ch0] String : b'\x00\x00\x00\x05\x01\x08\x06\x02\t'
 
+  '''
 위와 같이 보이면 리슨 성공 
 
 ##  3. gpio
