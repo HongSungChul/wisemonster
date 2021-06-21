@@ -67,7 +67,7 @@ Received: [0, 0, 0, 5, 1, 8, 6, 2, 9] [ch0] String : b'\x00\x00\x00\x05\x01\x08\
   - wifi 계정은 밑은 과정 참고. ui에서도 가능(생략)
   - $ /etc/wpa_supplicant/wpa_supplicant.conf
 
-    <pre>
+  <pre>
   network={
         ssid="Wikibox_Asus_2G"
         psk="wiki1234!"
