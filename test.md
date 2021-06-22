@@ -44,7 +44,7 @@ Received: [0, 0, 0, 5, 1, 8, 6, 2, 9] [ch0] String : b'\x00\x00\x00\x05\x01\x08\
   - 외측:gpio 8 [24], 내측:gpio 7[26]
   - 명령어 gpio read gpio번호 형태로 테스트 할 수 있다.
     <pre>
-    $gpio read 8
+    $/home/pi/Workspace/script/gpiotest.py 7
       </pre>
   - <p style='color:red'>테스트결과=> 실패 </p>
 ##  4. 카메라
@@ -58,6 +58,11 @@ Received: [0, 0, 0, 5, 1, 8, 6, 2, 9] [ch0] String : b'\x00\x00\x00\x05\x01\x08\
   $/home/pi/Workspace/script/camerapreview.py 1
   </pre>
   - <font color='red'>테스트결과=> 실패 </font>
+  
+  <pre>
+  $ls /dev/video*
+  /dev/video10  /dev/video11  /dev/video12  /dev/video13  /dev/video14  /dev/video15  /dev/video16
+  </pre>
 ##  5. USB 모메리 
   - 메모리 스틱을 usb  에 끼운다.
   - $df -h 
@@ -102,5 +107,11 @@ Received: [0, 0, 0, 5, 1, 8, 6, 2, 9] [ch0] String : b'\x00\x00\x00\x05\x01\x08\
   </pre>
   
     - 테스튼결과 => 성공
+    - 자체 전력으로는 문을 열지 못함
     
-   ### 접압이 낮다고 경고가 
+### 8. 터치모니터
+  - 테스트못함
+
+### 9. 접압이 낮다고 경고가 나옴 (12V 5A)
+  - 정품은 12V 3A 에서 작동함
+  
