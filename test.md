@@ -63,6 +63,8 @@ Received: [0, 0, 0, 5, 1, 8, 6, 2, 9] [ch0] String : b'\x00\x00\x00\x05\x01\x08\
   $ls /dev/video*
   /dev/video10  /dev/video11  /dev/video12  /dev/video13  /dev/video14  /dev/video15  /dev/video16
   </pre>
+  
+  J6 점퍼 2개를 세로로 연결해야함
 ##  5. USB 모메리 
   - 메모리 스틱을 usb  에 끼운다.
   - $df -h 
