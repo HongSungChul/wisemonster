@@ -119,3 +119,11 @@ Received: [0, 0, 0, 5, 1, 8, 6, 2, 9] [ch0] String : b'\x00\x00\x00\x05\x01\x08\
   
 ### 10. 락커 외부전원 공급 문제 
 
+### 11. led 테스트
+
+    <pre>
+    pi@10001:~ $ gpio -g mode 6 output
+    pi@10001:~ $ gpio -g write 6 1
+    pi@10001:~ $ gpio -g write 6 0
+</pre>
+
