@@ -41,7 +41,7 @@ Received: [0, 0, 0, 5, 1, 8, 6, 2, 9] [ch0] String : b'\x00\x00\x00\x05\x01\x08\
 위와 같이 보이면 리슨 성공 
 - 테스트결과=> 성공
 ##  3. gpio
-  - 외측:gpio 8 [24], 내측:gpio 7[26]
+  - 외측:gpio 8 [24], 내측:gpio 7[26] 22 gpio: 벨버튼
   - 명령어 gpio read gpio번호 형태로 테스트 할 수 있다.
     <pre>
     $/home/pi/Workspace/script/gpiotest.py 7
